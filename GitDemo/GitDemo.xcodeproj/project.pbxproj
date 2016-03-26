@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6978381CA6845300DD04C1 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6978371CA6845300DD04C1 /* ViewControllerA.m */; };
 		BC9C57601CA67AB200F4FB52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9C575F1CA67AB200F4FB52 /* main.m */; };
 		BC9C57631CA67AB200F4FB52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9C57621CA67AB200F4FB52 /* AppDelegate.m */; };
 		BC9C57661CA67AB200F4FB52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9C57651CA67AB200F4FB52 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC6978361CA6845300DD04C1 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		BC6978371CA6845300DD04C1 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
 		BC9C575B1CA67AB200F4FB52 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9C575F1CA67AB200F4FB52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC9C57611CA67AB200F4FB52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC6978341CA6840100DD04C1 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				BC6978361CA6845300DD04C1 /* ViewControllerA.h */,
+				BC6978371CA6845300DD04C1 /* ViewControllerA.m */,
+			);
+			name = A;
+			sourceTree = "<group>";
+		};
 		BC9C57521CA67AB100F4FB52 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		BC9C575D1CA67AB200F4FB52 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC6978341CA6840100DD04C1 /* A */,
 				BC9C57611CA67AB200F4FB52 /* AppDelegate.h */,
 				BC9C57621CA67AB200F4FB52 /* AppDelegate.m */,
 				BC9C57641CA67AB200F4FB52 /* ViewController.h */,
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6978381CA6845300DD04C1 /* ViewControllerA.m in Sources */,
 				BC9C57661CA67AB200F4FB52 /* ViewController.m in Sources */,
 				BC9C57631CA67AB200F4FB52 /* AppDelegate.m in Sources */,
 				BC9C57601CA67AB200F4FB52 /* main.m in Sources */,
@@ -300,6 +314,7 @@
 				BC9C57741CA67AB200F4FB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
